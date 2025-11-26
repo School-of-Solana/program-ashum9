@@ -1,6 +1,6 @@
 # Project Description
 
-**Deployed Frontend URL:** https://MetaIDmz0fh774u-ashutosh-mishras-projects-e63a074b.vercel.app
+**Deployed Frontend URL:** https://metaid-mz0fh774u-ashutosh-mishras-projects-e63a074b.vercel.app
 
 **Deployed Frontend URL 2 (building):** https://synelar.vercel.app
 
