@@ -1,0 +1,13 @@
+node_modules
+.DS_Store
+target
+**/*.rs.bk
+*.pdb
+test-ledger
+.anchor
+.idea
+.vscode
+*.log
+dist
+.env
+.env.local
