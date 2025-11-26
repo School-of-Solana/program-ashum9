@@ -6,3 +6,4 @@ dist-ssr
 target
 .anchor
 test-ledger
+.vercel

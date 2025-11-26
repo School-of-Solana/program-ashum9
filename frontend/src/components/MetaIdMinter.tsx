@@ -78,7 +78,7 @@ const MetaIdMinter: FC = () => {
     try {
       const provider = new anchor.AnchorProvider(
         connection,
-        window.solana,
+        (window as any).solana,
         { commitment: 'confirmed' }
       );
       const program = new anchor.Program(idl as any, provider);
@@ -112,7 +112,7 @@ const MetaIdMinter: FC = () => {
     try {
       const provider = new anchor.AnchorProvider(
         connection,
-        window.solana,
+        (window as any).solana,
         { commitment: 'confirmed' }
       );
       const program = new anchor.Program(idl as any, provider);
