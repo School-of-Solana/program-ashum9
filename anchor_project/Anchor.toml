@@ -1,0 +1,24 @@
+[toolchain]
+
+[features]
+seeds = false
+skip-lint = false
+
+[programs.devnet]
+metaid_nft = "HqfRUQe2y18NCem7JLRmP1d3nudXzQXDc7uaWLXtrjTV"
+
+[programs.localnet]
+metaid_nft = "HqfRUQe2y18NCem7JLRmP1d3nudXzQXDc7uaWLXtrjTV"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+
+[workspace]
+members = ["programs/*"]
