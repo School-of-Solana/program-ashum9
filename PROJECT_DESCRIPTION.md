@@ -6,12 +6,16 @@
 
 **Solana Program ID:** `HqfRUQe2y18NCem7JLRmP1d3nudXzQXDc7uaWLXtrjTV` (✅ Deployed on Devnet)
 
-[Synelar Pitch](./synelarPitch.md)
+[Synelar Pitch short](./synelarPitch.md)
+
+[Synelar Pitch (NOTION) PLEASE CLICK](https://absorbing-anorak-867.notion.site/synelar-2b7aabe6674d80339870e3d1c601314a?source=copy_link)
 
 **Solana Explorer:** https://explorer.solana.com/address/HqfRUQe2y18NCem7JLRmP1d3nudXzQXDc7uaWLXtrjTV?cluster=devnet
 
 ## Project Overview
-[Synelar Pitch](./synelarPitch.md)
+[Synelar Pitch short](./synelarPitch.md)
+
+[Synelar Pitch (NOTION) PLEASE CLICK](https://absorbing-anorak-867.notion.site/synelar-2b7aabe6674d80339870e3d1c601314a?source=copy_link)
 
 
 ### Description

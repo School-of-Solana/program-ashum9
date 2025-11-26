@@ -1,286 +1,76 @@
 # Synelar: The Internet Layer for Digital Identity
 
+**One Identity. Infinite Ownership. Instant Earnings.**
 
-Synelar: The Internet Layer for Digital Identity
-=================================================
+Tired of apps stealing your data while you rebuild profiles endlessly? Synelar fixes that—turning login into a revenue stream. Your wallet. Your rules. Your wallet fattens.
 
-One Identity. Infinite Ownership.
+## TL;DR: Login That Pays
+No native ID on the web means chaos: data theft, repetition, zero user profit. Synelar's protocol delivers:
+- **Wallet login**: Password-free, secure.
+- **MetaID NFT**: Soulbound on-chain passport.
+- **Encrypted profile**: Off-chain, user-controlled.
+- **Portable rep**: Carry your cred everywhere.
+- **X402 micropayments**: Apps pay *you* per access.
+- **Solana-powered**: 65K TPS, <$0.00025 fees.
 
-TL;DR
------
-The Internet has no native identity layer. Apps steal your data. Users repeat themselves. Corporations profit — you don’t.
+From victim to VIP: Own your digital self.
 
-Synelar is the missing identity protocol:
-- Wallet-based login
-- On-chain MetaID NFT
-- Encrypted off-chain profile
-- Portable reputation
-- Pay-per-access identity via X402
-- Built fully on Solana
+## The Problem: Web2's Identity Trap
+- **Centralized Giants** (Google, Meta): Harvest your data, ban you on a whim. No portability, no earnings.
+- **User Pain**: Endless forms, siloed reps, devs waste time on auth.
+- **Scale**: $200B market—you get zilch.
 
-We're turning login into ownership. Your identity. Your terms. Your earnings.
+It's broken. Synelar breaks the cycle.
 
-The Problem with Current Identity Systems
-------------------------------------------
-**The Google Model (Web2 Auth):**
-- Apps use Google, Facebook, Apple, or email/password to onboard users.
-- These providers collect user data, preferences, and behavior.
-- Users have no control, no portability, and zero monetization.
-- If your Google account is suspended — your digital life vanishes.
-- OAuth (Open Authorization) is not open in control — it’s centralized.
+## The Fix: Synelar Protocol
+Your **MetaID**: On-chain NFT + encrypted off-chain vault. Apps rent access via wallet sigs—*you* earn 70% of X402 streams.
 
-**Consequences:**
-- Users fill out profiles again and again.
-- Apps don’t benefit from previous user reputation or preferences.
-- Developers rebuild auth/profile logic every time.
-- Corporations profit from your identity — you don’t.
+**Key Wins**:
+- **Privacy-First**: AES encryption, IPFS/Arweave storage.
+- **Verifiable Trust**: Optional SAS KYC proofs.
+- **Seamless**: Works with Phantom, Solflare; Anchor contracts for speed.
 
-The Solution: Synelar
----------------------
-Synelar gives each user a MetaID — a wallet-based, on-chain identity NFT, backed by encrypted off-chain profile storage and monetized via real-time micro-payments (X402).
+## Why Solana? Built for Blitz
+- Blazing TPS for micro-interactions.
+- Dev tools: Metaplex NFTs, Lit perms, X402 streams.
+- No ETH gas—pure efficiency.
 
-Key Properties:
-- Native to Solana (ultra-low fees, high TPS)
-- Encrypted profile storage
-- Permissioned access using wallet signature
-- Earnings for the user via identity fetch
+## Your Flow: 5 Mins to Mogul
+1. Visit synelar.xyz → Connect wallet → Sign in.
+2. Mint MetaID (1s tx).
+3. Build profile → Encrypt & upload.
+4. (Opt) Verify KYC for rep boost.
+5. Share link → Apps pay to access.
+6. Dashboard: Track earnings, logs.
 
-Solana: A to Z for Synelar
----------------------------
-**Why Solana?**
-- 65,000+ TPS, near-zero fees (<$0.00025)
-- Ideal for identity and micro-interactions
-- Active developer ecosystem
-- Fully supports Anchor framework, Metaplex, X402, and NFT standards
+Boom—profile as asset.
 
-**Core Tools Used:**
-- Wallet Adapter: unified wallet connect (Phantom, Solflare, Backpack)
-- Anchor: Rust framework to build smart contracts (Programs)
-- Metaplex Core: lightweight NFT minting
-- NFT.Storage + IPFS: for encrypted off-chain storage
-- Bundlr + Arweave: for permanent archival of metadata
-- Lit Protocol (optional): for encrypted data permissioning
-- Solana Attestation Service: for human verifications (SAS)
-- X402: streaming micro-payments protocol built for Solana
+## Market Blitz & Cash Flow
+**Targets**: Devs ditching OAuth; creators, apps needing trust.
 
-Architecture Overview
----------------------
-1. Wallet-Based Login:
-   - User connects via Wallet Adapter
-   - Signs message → proves control
+**Launch Hooks**:
+- Demo: "Login & Earn" MVP.
+- Vs. Rivals: "Google tracks. Synelar pays."
+- Channels: Product Hunt, X memes, Reddit DAOs.
 
-2. MetaID NFT:
-   - Minted on Solana
-   - Unique + non-transferable (soulbound)
-   - Includes metadata: address, rep score, SAS proof hash
+**Monetization Streams**:
+| Model | How | Yr1 Est. |
+|-------|-----|----------|
+| X402 Access | Per-query fees | $150K |
+| Premium Skins | NFT drops | $50K |
+| API Licenses | Dev tiers | $75K |
+| Verification Stakes | Priority boosts | $25K |
 
-3. Encrypted Profile Storage:
-   - AES in-browser encryption
-   - Uploaded to IPFS or Arweave
-   - Only decrypted via valid wallet signature
+Total: $300K+ from go.
 
-4. Optional Verification:
-   - User completes KYC with trusted SAS partner
-   - Proof linked on-chain to MetaID NFT
+## Seed Spark: $250K–$500K
+- **60% Dev**: MVP, SDKs.
+- **20% Infra**: Scale-ready.
+- **10% GTM**: Viral push.
+- **10% Legal**: Compliant.
+- **Goals**: 10K MetaIDs, v1 SDK, 10 integrations.
 
-5. X402 Payments:
-   - Apps pay per identity/profile query
-   - Synelar API validates access + logs the event
-   - User receives share of the payment
+## Own the Future
+Synelar: Not auth. The *identity economy*. User-owned, scalable, revolutionary.
 
-User Flow
----------
-1. User visits synelar.xyz
-2. Connects wallet → signs login
-3. Clicks “Mint My MetaID” → confirms transaction
-4. Fills profile → encrypted and uploaded
-5. (Optional) Verifies KYC via SAS
-6. Receives public profile link → apps pay to access via X402
-7. All accesses + earnings shown in dashboard
-
-Market Strategy
----------------
-- Target developers, creators, and apps tired of OAuth
-- Launch with a demo: “Login with Synelar → Earn on Login”
-- Compare directly with Google Auth, ENS, Worldcoin
-- Use Product Hunt, X (Twitter), Reddit, Dev DAOs for maximum reach
-- Meme-ready marketing: “Google logs you in. Synelar pays you in.”
-
-Monetization
-------------
-- X402 pay-per-access
-- Premium MetaID skins (NFTs)
-- API gateway license fees
-- Verification staking/priority profile boost
-
-Tech Summary
-------------
-- Solana-native (no Ethereum dependencies)
-- Anchor-based contracts
-- IPFS/Arweave hybrid storage
-- AES + wallet-based encryption
-- Compatible with existing wallets
-- Future SDKs: React, Unity, Unreal
-
-Funding Ask (Seed)
-------------------
-- Raise: $250K–500K
-- Use:
-  - 60% Dev
-  - 20% Infra
-  - 10% GTM
-  - 10% Legal
-- Goal: 10K MetaIDs, SDK v1, 10+ live integrations
-
-Closing Note
-------------
-Synelar is not just login. It’s not just identity. It’s not just Web3.
-
-It’s the Internet’s missing layer — a user-owned, revenue-generating identity protocol built for scale.
-
-We’re not another auth provider. We’re turning your profile into an asset.
-
-Welcome to the identity economy.
-
-
-Synelar: The Internet Layer for Digital Identity
-=================================================
-
-One Identity. Infinite Ownership.
-
-TL;DR
------
-The Internet has no native identity layer. Apps steal your data. Users repeat themselves. Corporations profit — you don’t.
-
-Synelar is the missing identity protocol:
-- Wallet-based login
-- On-chain MetaID NFT
-- Encrypted off-chain profile
-- Portable reputation
-- Pay-per-access identity via X402
-- Built fully on Solana
-
-We're turning login into ownership. Your identity. Your terms. Your earnings.
-
-The Problem with Current Identity Systems
-------------------------------------------
-**The Google Model (Web2 Auth):**
-- Apps use Google, Facebook, Apple, or email/password to onboard users.
-- These providers collect user data, preferences, and behavior.
-- Users have no control, no portability, and zero monetization.
-- If your Google account is suspended — your digital life vanishes.
-- OAuth (Open Authorization) is not open in control — it’s centralized.
-
-**Consequences:**
-- Users fill out profiles again and again.
-- Apps don’t benefit from previous user reputation or preferences.
-- Developers rebuild auth/profile logic every time.
-- Corporations profit from your identity — you don’t.
-
-The Solution: Synelar
----------------------
-Synelar gives each user a MetaID — a wallet-based, on-chain identity NFT, backed by encrypted off-chain profile storage and monetized via real-time micro-payments (X402).
-
-Key Properties:
-- Native to Solana (ultra-low fees, high TPS)
-- Encrypted profile storage
-- Permissioned access using wallet signature
-- Earnings for the user via identity fetch
-
-Solana: A to Z for Synelar
----------------------------
-**Why Solana?**
-- 65,000+ TPS, near-zero fees (<$0.00025)
-- Ideal for identity and micro-interactions
-- Active developer ecosystem
-- Fully supports Anchor framework, Metaplex, X402, and NFT standards
-
-**Core Tools Used:**
-- Wallet Adapter: unified wallet connect (Phantom, Solflare, Backpack)
-- Anchor: Rust framework to build smart contracts (Programs)
-- Metaplex Core: lightweight NFT minting
-- NFT.Storage + IPFS: for encrypted off-chain storage
-- Bundlr + Arweave: for permanent archival of metadata
-- Lit Protocol (optional): for encrypted data permissioning
-- Solana Attestation Service: for human verifications (SAS)
-- X402: streaming micro-payments protocol built for Solana
-
-Architecture Overview
----------------------
-1. Wallet-Based Login:
-   - User connects via Wallet Adapter
-   - Signs message → proves control
-
-2. MetaID NFT:
-   - Minted on Solana
-   - Unique + non-transferable (soulbound)
-   - Includes metadata: address, rep score, SAS proof hash
-
-3. Encrypted Profile Storage:
-   - AES in-browser encryption
-   - Uploaded to IPFS or Arweave
-   - Only decrypted via valid wallet signature
-
-4. Optional Verification:
-   - User completes KYC with trusted SAS partner
-   - Proof linked on-chain to MetaID NFT
-
-5. X402 Payments:
-   - Apps pay per identity/profile query
-   - Synelar API validates access + logs the event
-   - User receives share of the payment
-
-User Flow
----------
-1. User visits synelar.xyz
-2. Connects wallet → signs login
-3. Clicks “Mint My MetaID” → confirms transaction
-4. Fills profile → encrypted and uploaded
-5. (Optional) Verifies KYC via SAS
-6. Receives public profile link → apps pay to access via X402
-7. All accesses + earnings shown in dashboard
-
-Market Strategy
----------------
-- Target developers, creators, and apps tired of OAuth
-- Launch with a demo: “Login with Synelar → Earn on Login”
-- Compare directly with Google Auth, ENS, Worldcoin
-- Use Product Hunt, X (Twitter), Reddit, Dev DAOs for maximum reach
-- Meme-ready marketing: “Google logs you in. Synelar pays you in.”
-
-Monetization
-------------
-- X402 pay-per-access
-- Premium MetaID skins (NFTs)
-- API gateway license fees
-- Verification staking/priority profile boost
-
-Tech Summary
-------------
-- Solana-native (no Ethereum dependencies)
-- Anchor-based contracts
-- IPFS/Arweave hybrid storage
-- AES + wallet-based encryption
-- Compatible with existing wallets
-- Future SDKs: React, Unity, Unreal
-
-Funding Ask (Seed)
-------------------
-- Raise: $250K–500K
-- Use:
-  - 60% Dev
-  - 20% Infra
-  - 10% GTM
-  - 10% Legal
-- Goal: 10K MetaIDs, SDK v1, 10+ live integrations
-
-Closing Note
-------------
-Synelar is not just login. It’s not just identity. It’s not just Web3.
-
-It’s the Internet’s missing layer — a user-owned, revenue-generating identity protocol built for scale.
-
-We’re not another auth provider. We’re turning your profile into an asset.
-
-Welcome to the identity economy.
-
+Mint at synelar.xyz. DM @SynelarID. Let's pay the Internet forward.
