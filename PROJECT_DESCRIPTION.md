@@ -1,6 +1,6 @@
 # Project Description
 
-**Deployed Frontend URL:** Ready for deployment - See `FRONTEND_DEPLOYMENT.md` for instructions
+**Deployed Frontend URL:** https://metaid-mz0fh774u-ashutosh-mishras-projects-e63a074b.vercel.app
 
 **Solana Program ID:** `HqfRUQe2y18NCem7JLRmP1d3nudXzQXDc7uaWLXtrjTV` (✅ Deployed on Devnet)
 
