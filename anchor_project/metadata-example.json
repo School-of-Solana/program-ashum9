@@ -1,0 +1,53 @@
+{
+  "name": "Synelar MetaID",
+  "symbol": "METAID",
+  "description": "Your unique digital identity on Solana. This NFT represents your verified presence in the Solana ecosystem and cannot be duplicated.",
+  "seller_fee_basis_points": 0,
+  "image": "https://arweave.net/placeholder-image-hash",
+  "external_url": "https://synelar.xyz",
+  "attributes": [
+    {
+      "trait_type": "Identity Type",
+      "value": "Personal"
+    },
+    {
+      "trait_type": "Verification Status",
+      "value": "Unverified"
+    },
+    {
+      "trait_type": "XP Score",
+      "value": "0"
+    },
+    {
+      "trait_type": "Reputation Level",
+      "value": "Newcomer"
+    },
+    {
+      "trait_type": "Created Date",
+      "value": "2025-11-27"
+    },
+    {
+      "trait_type": "Network",
+      "value": "Solana"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://arweave.net/placeholder-image-hash",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "metaABC123456789defghijklmnopqrstuvwxyz",
+        "share": 100
+      }
+    ]
+  },
+  "collection": {
+    "name": "MetaID Collection",
+    "family": "Synelar Identity"
+  }
+}
