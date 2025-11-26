@@ -6,9 +6,13 @@
 
 **Solana Program ID:** `HqfRUQe2y18NCem7JLRmP1d3nudXzQXDc7uaWLXtrjTV` (✅ Deployed on Devnet)
 
+[Synelar Pitch](./synelarPitch.md)
+
 **Solana Explorer:** https://explorer.solana.com/address/HqfRUQe2y18NCem7JLRmP1d3nudXzQXDc7uaWLXtrjTV?cluster=devnet
 
 ## Project Overview
+[Synelar Pitch](./synelarPitch.md)
+
 
 ### Description
 MetaID or Synelar NFT or Synelar is a unique digital identity system built on Solana that allows each wallet to mint exactly one unique NFT representing their identity on the blockchain. This dApp implements a robust identity verification system using Program Derived Addresses (PDAs) to enforce the one-NFT-per-wallet constraint, ensuring that each user's MetaID or Synelar is truly unique and cannot be duplicated.
